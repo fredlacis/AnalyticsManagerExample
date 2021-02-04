@@ -1,0 +1,6 @@
+framework module Pods_AnalyticsManagerExample {
+  umbrella header "Pods-AnalyticsManagerExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
