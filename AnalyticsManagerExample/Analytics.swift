@@ -13,22 +13,19 @@ class AnalyticsManager{
     /// Unique instance of EventManager (SINGLETON)
     static var shared: AnalyticsManager = AnalyticsManager()
     
-    
-    // --- Stored Properties
-//    var authorizationHandlerTrigger: AuthorizationHandlerTrigger = .NotTraceable
-    // --- Stored Properties
+    // Stored properties
+    // This is the place where you can add variables that are changed in multiple views to use in your events
     
     
     fileprivate init(){}
     
-    /// Logs an app event in Firebase Analytics.
+    /// Logs an app event in the Analyitics Dashboard
     /// - Parameters:
-    ///   - name: The name of the event.
-    ///   - parameters: The dictionary of event parameters. Passing nil indicates that the event has no parameters.
+    ///   - event: The event declared in the AnalyticsEvent enum with all its parameters.
     static func logEvent(_ event: AnalyticsEvent) {
-        //        #if !DEBUG
-        Analytics.logEvent(event.name, parameters: event.parameters)
-        //        #endif
+//        #if !DEBUG /* Uncomment this if statement if you want that only the production app send events. */
+            Analytics.logEvent(event.name, parameters: event.parameters)
+//        #endif
     }
     
 }

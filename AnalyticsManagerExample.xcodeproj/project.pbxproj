@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		D483BA1E25CB426E009EA879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D483BA1D25CB426E009EA879 /* Assets.xcassets */; };
 		D483BA2125CB426E009EA879 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D483BA2025CB426E009EA879 /* Preview Assets.xcassets */; };
 		D483BA2A25CB4322009EA879 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D483BA2925CB4322009EA879 /* Analytics.swift */; };
+		D4BC2FC125CDC41900451E83 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4BC2FC025CDC41900451E83 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D483BA2025CB426E009EA879 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D483BA2225CB426E009EA879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D483BA2925CB4322009EA879 /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		D4BC2FC025CDC41900451E83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FBA4EBCFE55753E31CFB1D82 /* Pods-AnalyticsManagerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalyticsManagerExample.debug.xcconfig"; path = "Target Support Files/Pods-AnalyticsManagerExample/Pods-AnalyticsManagerExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +56,6 @@
 				FBA4EBCFE55753E31CFB1D82 /* Pods-AnalyticsManagerExample.debug.xcconfig */,
 				68384EEECCE50070813C2B56 /* Pods-AnalyticsManagerExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +85,7 @@
 				D483BA2925CB4322009EA879 /* Analytics.swift */,
 				D483BA1D25CB426E009EA879 /* Assets.xcassets */,
 				D483BA2225CB426E009EA879 /* Info.plist */,
+				D4BC2FC025CDC41900451E83 /* GoogleService-Info.plist */,
 				D483BA1F25CB426E009EA879 /* Preview Content */,
 			);
 			path = AnalyticsManagerExample;
@@ -158,6 +160,7 @@
 			files = (
 				D483BA2125CB426E009EA879 /* Preview Assets.xcassets in Resources */,
 				D483BA1E25CB426E009EA879 /* Assets.xcassets in Resources */,
+				D4BC2FC125CDC41900451E83 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
